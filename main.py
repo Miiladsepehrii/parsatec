@@ -1,18 +1,21 @@
-# print('Milad')
+# operators : + - * /
+# **
 
-print(type(5))  # returns integer number type
-print(type(5.3))  # returns float number type
-print(type(5j))  # returns complex type
+print(3 ** 2)  # means : 3 in power of 2
+print(49 ** 0.5)
 
-print('----------------')
-print(3 + 6)
+print('----------------------')
 
-print(6 + 7.0)
-print('----------------')
+# %  returns what remains from division
 
-print(4 + 7)
-print(4 - 7)
-print(4 * 7)
-print(49 / 7)  # division always returns float
+print(68 / 6)
+print(68 % 6)
 
-print((1 + 3) * 4 / 2)
+print(78 % 2)
+print('----------------------')
+
+# // return integer part of a division
+
+print((68 - (68 % 6)) / 6)
+
+print(68 // 6)
