@@ -1,12 +1,13 @@
-# 2 < age < 8 => 2 dollars
-# age >= 65 => 5 dollars
-# rest => 10 dollars
-
-age = 50
-
-if (age >= 0 and age <= 2) or (age >= 8 and age < 65):
-    print("you should pay 10 dollars")
+# example
 
 
-if not ((age > 2 and age < 8) or age >= 65):
-    print("you should pay 10 dollars")
+
+# for num in range(1,10):
+#     print("*" * num)
+
+
+for num in range(1, 10):  # [1,2,3,4,5,6,7,8,9]
+    stars = ""
+    for star in range(1, num + 1):  # [1, ..., num]
+        stars += "*"
+    print(stars)
